@@ -15,7 +15,7 @@ const index = () => {
         <link rel="icon" href="" />
       </Head>
       <Hero/>
-      <Boat/>
+      {/* <Boat/> */}
         <Main/>
         <SectionsLink/>
       <Footer/>

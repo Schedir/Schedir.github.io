@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST={"../components/Boat.jsx -> react-scroll-motion":{"id":"../components/Boat.jsx -> react-scroll-motion","files":[]},"../components/Main.jsx -> react-scroll-motion":{"id":"../components/Main.jsx -> react-scroll-motion","files":[]}}
