@@ -1,0 +1,16 @@
+import React from 'react'
+
+const TextSx = ({text, auth}) => {
+  return (
+    <div className='grid mr-[50%] justify-items-end'>
+        <div className="mb-10 mr-[5em]">
+            <a href="#" className="block p-6 max-w-xl bg-transparent hover:scale-105">
+                <h5 className="mb-2 text-2xl text-center tracking-tight text-gray-900 dark:text-white hover:scale-105">{text}</h5>
+                <p className="font-normal text-left text-gray-700 dark:text-gray-400 hover:scale-105">{auth}</p>
+            </a>
+        </div>
+    </div>
+  )
+}
+
+export default TextSx
