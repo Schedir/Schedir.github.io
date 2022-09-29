@@ -33,22 +33,22 @@ const NavBar2 = () => {
             </a>
 
 
-            <div class="hidden w-full md:block md:w-auto " id="navbar-default">
-                <ul class="flex flex-col p-3 mt-auto bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-schedir-lavander/10">
+            <div className="hidden w-full md:block md:w-auto " id="navbar-default">
+                <ul className="flex flex-col p-3 mt-auto bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-schedir-lavander/10">
                     <li>
-                    <a href="/" class="block text-schedir-green hover:text-schedir-yell py-2 pr-4 pl-3 text-[16px] rounded md:p-0" aria-current="page">Home</a>
+                    <a href="/" className="block text-schedir-green hover:text-schedir-yell py-2 pr-4 pl-3 text-[16px] rounded md:p-0" aria-current="page">Home</a>
                     </li>
                     <li>
-                    <a href="/logbook" class="block text-schedir-green hover:text-schedir-yell py-2 pr-4 pl-3 text-[16px] md:border-0 md:p-0">Logbook</a>
+                    <a href="/logbook" className="block text-schedir-green hover:text-schedir-yell py-2 pr-4 pl-3 text-[16px] md:border-0 md:p-0">Logbook</a>
                     </li>
                     <li>
-                    <a href="#" class="block text-schedir-green hover:text-schedir-yell py-2 pr-4 pl-3 text-[16px] md:border-0 md:p-0 ">The Route</a>
+                    <a href="#" className="block text-schedir-green hover:text-schedir-yell py-2 pr-4 pl-3 text-[16px] md:border-0 md:p-0 ">The Route</a>
                     </li>
                     <li>
-                    <a href="#" class="block text-schedir-green hover:text-schedir-yell py-2 pr-4 pl-3 text-[16px] md:border-0 md:p-0 ">The Schedir</a>
+                    <a href="#" className="block text-schedir-green hover:text-schedir-yell py-2 pr-4 pl-3 text-[16px] md:border-0 md:p-0 ">The Schedir</a>
                     </li>
                     <li>
-                    <a href="#" class="block text-schedir-green hover:text-schedir-yell py-2 pr-4 pl-3 text-[16px] md:border-0 md:p-0 ">Join the crew</a>
+                    <a href="#" className="block text-schedir-green hover:text-schedir-yell py-2 pr-4 pl-3 text-[16px] md:border-0 md:p-0 ">Join the crew</a>
                     </li>
                 </ul>
             </div>
