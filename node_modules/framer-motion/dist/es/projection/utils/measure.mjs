@@ -5,8 +5,8 @@ function measureViewportBox(instance, transformPoint) {
     return convertBoundingBoxToBox(transformBoxPoints(instance.getBoundingClientRect(), transformPoint));
 }
 function measurePageBox(element, rootProjectionNode, transformPagePoint) {
-    var viewportBox = measureViewportBox(element, transformPagePoint);
-    var scroll = rootProjectionNode.scroll;
+    const viewportBox = measureViewportBox(element, transformPagePoint);
+    const { scroll } = rootProjectionNode;
     if (scroll) {
         translateAxis(viewportBox.x, scroll.x);
         translateAxis(viewportBox.y, scroll.y);

@@ -1,8 +1,7 @@
 function isIdentityScale(scale) {
     return scale === undefined || scale === 1;
 }
-function hasScale(_a) {
-    var scale = _a.scale, scaleX = _a.scaleX, scaleY = _a.scaleY;
+function hasScale({ scale, scaleX, scaleY }) {
     return (!isIdentityScale(scale) ||
         !isIdentityScale(scaleX) ||
         !isIdentityScale(scaleY));
