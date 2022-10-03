@@ -1,1 +1,6 @@
-{}
+{
+  "../components/Home/Main.jsx -> react-scroll-motion": {
+    "id": "../components/Home/Main.jsx -> react-scroll-motion",
+    "files": []
+  }
+}
