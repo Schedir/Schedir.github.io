@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={"../components/Home/Main.jsx -> react-scroll-motion":{"id":"../components/Home/Main.jsx -> react-scroll-motion","files":[]}}
+self.__REACT_LOADABLE_MANIFEST={"../components/Home/Main.jsx -> react-scroll-motion":{"id":"../components/Home/Main.jsx -> react-scroll-motion","files":[]},"../components/Logbook/DateLine.jsx -> react-scroll-motion":{"id":"../components/Logbook/DateLine.jsx -> react-scroll-motion","files":[]}}
