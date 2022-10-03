@@ -22,7 +22,7 @@ const Main = () => {
         <ScrollPage/>
         <ScrollPage>
 
-          <div className='container bg-schedir-blue z-[10]'>
+          <div>
             <h2 className='leading-none text-xl md:text-[60px] text-gray-300 bold text-center'>
               <Animator animation={FadefromLeft}>
               {/* <Animator animation={batch(Fade(), Move())}> */}

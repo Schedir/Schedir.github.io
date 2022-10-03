@@ -4,7 +4,7 @@ const Hero = ({heading, message}) => {
   return (
     <div className="flex min-h-screen mb-0 bg-[url('/media/prova.jpg')] bg-fixed">
         {/* Overlay */}
-        <div className='fixed top-0 left-0 right-0 bottom-0 min-h-screen bg-black/20 z-[1]'/>
+        {/* <div className='fixed top-0 left-0 right-0 bottom-0 min-h-screen bg-black/20 z-[1]'/> */}
         {/* <div className='absolute top-100 left-0 right-0 bottom-0 h-50 bg-gradient-to-b from-transparent to-schedir-blue z-[3]'/> */}
         {/* Methond only working on Safari */}
         {/* <div className="absolute w-full h-full bg-cover bg-fixed custom-vid"/> */}
