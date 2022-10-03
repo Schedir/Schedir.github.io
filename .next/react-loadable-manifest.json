@@ -1,6 +1,6 @@
 {
-  "../components/Home/Main.jsx -> react-scroll-motion": {
-    "id": "../components/Home/Main.jsx -> react-scroll-motion",
+  "../components/Logbook/DateLine.jsx -> react-scroll-motion": {
+    "id": "../components/Logbook/DateLine.jsx -> react-scroll-motion",
     "files": []
   }
 }
