@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head';
-import Timeline from '../components/Logbook/Timeline';
 import {motion} from 'framer-motion'
+import Timeline from '../components/Logbooks/Timeline';
 
 const Logbook = () => {
   return (
