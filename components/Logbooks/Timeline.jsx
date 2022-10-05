@@ -30,6 +30,7 @@ const Timeline = () => {
           
           <BoxDx 
           title={'Testo di prova'}
+          imgurl={'box-2.jpg'}
           text={'testo di prova, testo di prova, testo di prova, testo di prova, testo di prova, testo di prova, testo di prova, testo di prova'}/>
 
           <DateLine Date={'Marzo 2022'}/>

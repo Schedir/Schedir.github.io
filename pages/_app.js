@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <NavBar/>
-        <AnimatePresence exitBeforeEnter>
+        <AnimatePresence mode='wait'>
           <motion.div
           key={router.route}
           initial="initialState"
