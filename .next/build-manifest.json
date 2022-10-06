@@ -15,10 +15,10 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/Logbook": [
+    "/": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Logbook.js"
+      "static/chunks/pages/index.js"
     ],
     "/Route": [
       "static/chunks/webpack.js",
