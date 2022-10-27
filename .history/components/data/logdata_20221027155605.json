@@ -1,0 +1,21 @@
+[
+    {
+        "id":1,
+        "data":"",
+        "content":[
+            {
+                "id":1,
+                "pos":"justify-end mr-[50%]",
+                "type":"BoxSx",
+                "title":"titolo1",
+                "text":"testo1"
+            },
+            {
+                "id":2,
+                "type":"BoxSx",
+                "title":"titolo2",
+                "text":"testo2"
+            }
+        ]
+    }
+]
