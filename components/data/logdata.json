@@ -14,7 +14,7 @@
                 "id":2,
                 "type":"BoxDx",
                 "title":"titolo2",
-                "text":"testo2",
+                "text":"Questo è un testo di prova dove non so assolutamente cosa scrivere. Serve a valutare se i box mantengono le corrette distanze.",
                 "imgurl":"box-2.jpg"
             },
             {
