@@ -39,7 +39,7 @@ const HomeSec = () => {
         pathLength:1,
         opacity:1,
         transition: {
-          pathLength: {type: "spring", duration: 7, bounce: 0 }}
+          pathLength: {type: "spring", duration: 3.5, bounce: 0 }}
       }
     }
   return (
