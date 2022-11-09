@@ -19,7 +19,7 @@ const HomeSec = () => {
       x:-200, 
       opacity:1,
       transition: {
-        delay: .5,
+        delay: 1,
         ease: "easeInOut",
         duration: .5}},
     onscreen:{
