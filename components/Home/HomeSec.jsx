@@ -62,59 +62,59 @@ const HomeSec = () => {
                 initial={"hidden"}
                 whileInView={"visible"}
                 width="7346" height="2507" viewBox="0 0 7346 2507" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g filter="url(#filter0_i_10_90)">
-            <g filter="url(#filter1_i_10_90)">
+            {/* <g filter="url(#filter0_i_10_90)">
+            <g filter="url(#filter1_i_10_90)"> */}
             <motion.path variants={draw} d="M6711.85 1465.89L6153 1469.28" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
             <motion.path variants={draw} d="M7270.85 1462.89L6712 1466.28" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
             <motion.path variants={draw} d="M6924.68 1043.89L6365.83 1047.28" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
             <motion.path variants={draw} d="M6924.68 1043.89L6711.59 1465.37" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
             <motion.path variants={draw} d="M6365.83 1047.28L6152.74 1468.76" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
-            </g>
-            <g filter="url(#filter2_i_10_90)">
+            {/* </g>
+            <g filter="url(#filter2_i_10_90)"> */}
             <motion.path variants={draw} d="M6023.83 1044L5810.74 1465.48" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
-            </g>
-            <g filter="url(#filter3_i_10_90)">
+            {/* </g>
+            <g filter="url(#filter3_i_10_90)"> */}
             <motion.path variants={draw} d="M5681.68 1042.89L5122.83 1046.28" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
             <motion.path variants={draw} d="M5681.68 1042.89L5468.59 1464.37" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
             <motion.path variants={draw} d="M5122.83 1046.28L4909.74 1467.76" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
-            </g>
-            <g filter="url(#filter4_i_10_90)">
+            {/* </g>
+            <g filter="url(#filter4_i_10_90)"> */}
             <motion.path variants={draw} d="M4567.18 1463.65L4008.32 1467.04" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
             <motion.path variants={draw} d="M4780.68 1041.89L4221.83 1045.28" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
             <motion.path variants={draw} d="M4780.68 1041.89L4567.59 1463.37" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
             <motion.path variants={draw} d="M4221.83 1045.28L4008.74 1466.76" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
-            </g>
-            <g filter="url(#filter5_i_10_90)">
+            {/* </g>
+            <g filter="url(#filter5_i_10_90)"> */}
             <motion.path variants={draw} d="M3321.24 1046.26L3880.09 1042.87" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
             <motion.path variants={draw} d="M3107.74 1468.02L3666.59 1464.63" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
             <motion.path variants={draw} d="M3107.74 1468.02L3320.83 1046.54" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
             <motion.path variants={draw} d="M3666.66 1464.49L3879.74 1043" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
             <motion.path variants={draw} d="M3879.66 1043.48L4092.74 622" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
-            </g>
-            <g filter="url(#filter6_i_10_90)">
+            {/* </g>
+            <g filter="url(#filter6_i_10_90)"> */}
             <motion.path variants={draw} d="M2977.83 1043L2764.74 1464.48" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
-            </g>
+            {/* </g>
             <g filter="url(#filter7_i_10_90)">
-            <g filter="url(#filter8_i_10_90)">
+            <g filter="url(#filter8_i_10_90)"> */}
             <motion.path variants={draw} d="M2522.58 1222.87C2553.01 363.713 3286.74 375.033 3344.44 371.828C2657.64 342.289 2314.54 764.99 2156.95 1370.09C2039.26 1867.95 1922.26 2039.59 1612.06 2131.7C1613.98 2179.27 2485.2 2278.06 2522.58 1222.87Z" fill="#1C5C3B"/>
-            </g>
+            {/* </g> */}
             <motion.path variants={draw} d="M2522.58 1222.87C2553.01 363.713 3286.74 375.033 3344.44 371.828C2657.64 342.289 2314.54 764.99 2156.95 1370.09C2039.26 1867.95 1922.26 2039.59 1612.06 2131.7C1613.98 2179.27 2485.2 2278.06 2522.58 1222.87Z" stroke="#1C5C3B" strokeWidth="25" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-            </g>
-            <g filter="url(#filter9_i_10_90)">
+            {/* </g>
+            <g filter="url(#filter9_i_10_90)"> */}
             <motion.path variants={draw} d="M1798.18 1464.65L1239.32 1468.04" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
             <motion.path variants={draw} d="M2011.68 1042.89L1452.83 1046.28" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
             <motion.path variants={draw} d="M2011.67 1042.89L1798.59 1464.37" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
             <motion.path variants={draw} d="M1452.83 1046.28L1239.74 1467.76" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
-            </g>
-            <g filter="url(#filter10_i_10_90)">
+            {/* </g>
+            <g filter="url(#filter10_i_10_90)"> */}
             <motion.path variants={draw} d="M900.255 1463.65L341.405 1467.04" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
             <motion.path variants={draw} d="M1113.76 1041.88L554.908 1045.27" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
             <motion.path variants={draw} d="M1113.76 1041.88L900.67 1463.37" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
             <motion.path variants={draw} d="M341.827 1466.76L128.739 1888.24" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
             <motion.path variants={draw} d="M554.915 1044L341.827 1465.48" stroke="#EEEEEE" strokeWidth="150" strokeLinecap="round"/>
-            </g>
-            </g>
-            <defs>
+            {/* </g>
+            </g> */}
+            {/* <defs>
             <filter id="filter0_i_10_90" x="53.7229" y="257.872" width="7392.13" height="1912.79" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
             <feFlood floodOpacity="0" result="BackgroundImageFix"/>
             <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
@@ -225,7 +225,7 @@ const HomeSec = () => {
             <feColorMatrix type="matrix" values="0 0 0 0 0.0313726 0 0 0 0 0.0705882 0 0 0 0 0.129412 0 0 0 0.25 0"/>
             <feBlend mode="normal" in2="shape" result="effect1_innerShadow_10_90"/>
             </filter>
-            </defs>
+            </defs> */}
           </motion.svg>
         </div>
 
