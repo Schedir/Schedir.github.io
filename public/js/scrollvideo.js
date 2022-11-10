@@ -2,7 +2,7 @@ const html = document.documentElement;
 const canvas = document.getElementById("hero-lightpass");
 const context = canvas.getContext("2d");
 
-const frameCount = 148;
+const frameCount = 330;
 const currentFrame = index => (
   `HomeMedia/SeqSea/introloop2${index.toString().padStart(3, '0')}.jpg`
 )
@@ -28,8 +28,8 @@ const updateImage = index => {
 }
 
 window.addEventListener('scroll', () => {  
-  const scrollTop = html.scrollTop;
-  const maxScrollTop = html.scrollHeight - window.innerHeight;
+  const scrollTop = html.scrollTop - 3000;
+  const maxScrollTop = html.scrollHeight - 3000 - window.innerHeight;
   const scrollFraction = scrollTop / maxScrollTop;
   const frameIndex = Math.min(
     frameCount - 1,
