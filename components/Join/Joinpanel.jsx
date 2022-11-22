@@ -57,14 +57,6 @@ const Joinpanel = () => {
                     hover:from-schedir-g4 hover:to-schedir-g1 hover:via-schedir-g2'>
                     An inclusive journey
                     </motion.li>
-                    {/* <motion.li
-                    variants={txtAnimate}
-                    className='absolute text-transparent text-[40px] md:text-[80px] font-bold
-                    bg-clip-text background-animate text-center
-                    bg-gradient-to-r from-schedir-g1 via-schedir-g2 to-schedir-g4 
-                    hover:from-schedir-g4 hover:to-schedir-g1 hover:via-schedir-g2'>
-                    not a holiday
-                    </motion.li> */}
                     <motion.li
                     variants={txtAnimate}
                     className='absolute text-transparent text-[40px] md:text-[80px] font-bold
