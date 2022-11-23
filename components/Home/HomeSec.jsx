@@ -37,7 +37,7 @@ const HomeSec = () => {
           <div className='h-screen' >
           {/* <div className='absolute top-[50vh] left-0 right-0 bottom-0 h-[20vh] bg-gradient-to-b from-transparent to-schedir-blue z-[30]'/> */}
           {/* <div className='absolute left-[calc(50vw-150px)] top-[54.2vh] '> */}
-            <svg classname='overflow-clip' viewBox="0 0 4125 4151" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className='overflow-clip' viewBox="0 0 4125 4151" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M2050.77 981.678C2093.37 981.496 2661.21 1052.13 2661.74 1177.42C2661.94 1224.55 2605.54 1313.58 2588.88 1359.08C2537.37 1499.64 2516.93 1678.97 2538.28 1824.01C2571.63 2050.69 2718.49 2234.4 2751.38 2457.82C2845 3094.1 2543.27 3246.66 2028.99 3265.66C2067.16 3182.48 2135.41 3103.07 2180.48 3021.32C2370.81 2676.01 2431.74 2197.84 2375.18 1813.37C2343.76 1599.85 2273.05 1404.84 2183.26 1213.47C2153.32 1149.69 2051.07 1051.49 2050.77 981.678Z" fill="url(#first)" /> 
               {/* fill="#00A390" */}
               <path d="M1882.84 1001.19C1988.19 991.469 1964.79 1348.87 1964.79 1392.95C1964.79 1640.28 1785.89 1870.04 1773.59 2119.66C1756.39 2467.97 1932.01 2764.67 1932.01 3118.9C1932.01 3135.48 1920.71 3239.06 1904.7 3249.48C1871.68 3270.92 1504.49 3149.56 1500.45 3101.87C1468.77 2728.72 1620.63 2354.51 1620.63 1977.73C1620.63 1702.39 1418.42 1491.69 1429.43 1205.59C1431.71 1146.39 1833.42 1005.75 1882.84 1001.19Z" fill="url(#second)"/>
@@ -54,58 +54,58 @@ const HomeSec = () => {
               {/* fill="#5040C9" */}
               <defs>
                   <linearGradient id="first" x1="50%" y1="0%" x2="50%" y2="100%">
-                    <stop offset="0%" stop-color="#00A390" stopOpacity="1">
+                    <stop offset="0%" stopColor="#00A390" stopOpacity="1">
                       <animate attributeName="stop-color" values="#00A390;#5040C9;#BEE510;#081221;#00A390" dur="12s" repeatCount="indefinite" begin='0s' />
                     </stop>
-                    <stop offset="100%" stop-color="#00A390" stopOpacity="1">
+                    <stop offset="100%" stopColor="#00A390" stopOpacity="1">
                       <animate attributeName="stop-color" values="#00A390;#081221;#2C6334;#5040C9;#00A390" dur="12s" repeatCount="indefinite" begin='0s'/>
                     </stop>
                   </linearGradient>
                   <linearGradient id="second" x1="50%" y1="0%" x2="50%" y2="100%">
-                    <stop offset="0%" stop-color="#BEE510" stopOpacity="1">
+                    <stop offset="0%" stopColor="#BEE510" stopOpacity="1">
                       <animate attributeName="stop-color" values="#BEE510;#081221;#2C6334;#00A390;#BEE510" dur="12s" repeatCount="indefinite" begin='0.1s' />
                     </stop>
-                    <stop offset="100%" stop-color="#BEE510" stopOpacity="1">
+                    <stop offset="100%" stopColor="#BEE510" stopOpacity="1">
                       <animate attributeName="stop-color" values="#BEE510;#00A390;#5040C9;#081221;#BEE510" dur="12s" repeatCount="indefinite" begin='0.1s'/>
                     </stop>
                   </linearGradient>
                   <linearGradient id="third" x1="50%" y1="0%" x2="50%" y2="100%">
-                    <stop offset="0%" stop-color="#2C6334" stopOpacity="1">
+                    <stop offset="0%" stopColor="#2C6334" stopOpacity="1">
                       <animate attributeName="stop-color" values="#2C6334;#BEE510;#5040C9;#081221;#2C6334" dur="12s" repeatCount="indefinite" begin='0.2s' />
                     </stop>
-                    <stop offset="100%" stop-color="#2C6334" stopOpacity="1">
+                    <stop offset="100%" stopColor="#2C6334" stopOpacity="1">
                       <animate attributeName="stop-color" values="#2C6334;#0812210;#00A390;#BEE510;#2C6334" dur="12s" repeatCount="indefinite" begin='0.2s'/>
                     </stop>
                   </linearGradient>
                   <linearGradient id="fourth" x1="50%" y1="0%" x2="50%" y2="100%">
-                    <stop offset="0%" stop-color="#00A390" stopOpacity="1">
+                    <stop offset="0%" stopColor="#00A390" stopOpacity="1">
                       <animate attributeName="stop-color" values="#00A390;#5040C9;#BEE510;#081221;#00A390" dur="12s" repeatCount="indefinite" begin='0.3s' />
                     </stop>
-                    <stop offset="100%" stop-color="#00A390" stopOpacity="1">
+                    <stop offset="100%" stopColor="#00A390" stopOpacity="1">
                       <animate attributeName="stop-color" values="#00A390;#081221;#2C6334;#5040C9;#00A390" dur="12s" repeatCount="indefinite" begin='0.3s'/>
                     </stop>
                   </linearGradient>
                   <linearGradient id="fifth" x1="50%" y1="0%" x2="50%" y2="100%">
-                    <stop offset="0%" stop-color="#5040C9" stopOpacity="1">
+                    <stop offset="0%" stopColor="#5040C9" stopOpacity="1">
                       <animate attributeName="stop-color" values="#5040C9;#081221;#00A390;#00A390;#5040C9" dur="12s" repeatCount="indefinite" begin='0.2s' />
                     </stop>
-                    <stop offset="100%" stop-color="#5040C9" stopOpacity="1">
+                    <stop offset="100%" stopColor="#5040C9" stopOpacity="1">
                       <animate attributeName="stop-color" values="#5040C9;#00A390;#BEE510;#081221;#5040C9" dur="12s" repeatCount="indefinite" begin='0.2s'/>
                     </stop>
                   </linearGradient>
                   <linearGradient id="sixth" x1="50%" y1="0%" x2="50%" y2="100%">
-                    <stop offset="0%" stop-color="#BEE510" stopOpacity="1">
+                    <stop offset="0%" stopColor="#BEE510" stopOpacity="1">
                       <animate attributeName="stop-color" values="#BEE510;#081221;#2C6334;#00A390;#BEE510" dur="12s" repeatCount="indefinite" begin='0.1s' />
                     </stop>
-                    <stop offset="100%" stop-color="#BEE510" stopOpacity="1">
+                    <stop offset="100%" stopColor="#BEE510" stopOpacity="1">
                       <animate attributeName="stop-color" values="#BEE510;#00A390;#5040C9;#081221;#BEE510" dur="12s" repeatCount="indefinite" begin='0.1s'/>
                     </stop>
                   </linearGradient>
                   <linearGradient id="seventh" x1="50%" y1="0%" x2="50%" y2="100%">
-                    <stop offset="0%" stop-color="#5040C9" stopOpacity="1">
+                    <stop offset="0%" stopColor="#5040C9" stopOpacity="1">
                       <animate attributeName="stop-color" values="#5040C9;#081221;##00A390;#00A390;#5040C9" dur="12s" repeatCount="indefinite" begin='0s' />
                     </stop>
-                    <stop offset="100%" stop-color="#5040C9" stopOpacity="1">
+                    <stop offset="100%" stopColor="#5040C9" stopOpacity="1">
                       <animate attributeName="stop-color" values="#5040C9;#00A390;#BEE510;#081221;#5040C9" dur="12s" repeatCount="indefinite" begin='0s'/>
                     </stop>
                   </linearGradient>
