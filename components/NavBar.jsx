@@ -25,8 +25,8 @@ const NavBar = () => {
     }, []);
 
   return (
-    <div className='absolute z-50'>
-        <div id='Navbar' style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-screen ease-in duration-300 z-[10]'>
+    <div className='absolute z-[100]'>
+        <div id='Navbar' style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-screen ease-in duration-300 '>
             <div className='max-w-[1500px] h-32 m-auto flex justify-between items-center p-4'>
                 <div href="#" className="flex items-center my-auto sm:mb-0">
                     {/* <img src="/HomeMedia/posidonia_logo.png" className="mr-1 h-20" alt="Schedir Logo" /> */}
