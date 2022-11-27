@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={}
+self.__REACT_LOADABLE_MANIFEST={"../components/Home/HomeSec.jsx -> react-scroll-motion":{"id":"../components/Home/HomeSec.jsx -> react-scroll-motion","files":["static/chunks/node_modules_react-scroll-motion_dist_index_js.js"]}}
