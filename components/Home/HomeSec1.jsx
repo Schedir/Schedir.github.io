@@ -11,7 +11,7 @@ const HomeSec1 = () => {
   return (
     <div>
       <div className='flex justify-center items-center bg-opacity-50'>
-        <div className='bg-fixed bg-[url("/media/Schedir_1.JPG")] bg-right bg-cover w-screen h-64 z-30 mx-0' >
+        <div className='bg-fixed bg-[url("/HomeMedia/Schedir_1.JPG")] bg-right bg-cover w-screen h-64 z-30 mx-0' >
           <p className='font-bold text-[19px] sm:text-[15px] md:text-[20px] lg:text-[27px] text-transparent mx-[10vw] my-[5%]
           bg-clip-text background-animate text-center
           bg-gradient-to-r from-schedir-blue via-schedir-glake to-schedir-violet'>

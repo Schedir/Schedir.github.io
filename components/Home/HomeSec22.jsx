@@ -117,7 +117,7 @@ const HomeSec22 = () => {
                       // variants={boxAnimate}
                       className='rounded-md'
                       viewport={{once:false, amount:0.5, margin:['-150px 0px 0px 0px']}}
-                      src='/HomeMedia/IMG_00.png' width="100%"/>
+                      src='/HomeMedia/IMG_0.png' width="100%"/>
                   </motion.div>
               </div>
           </div>

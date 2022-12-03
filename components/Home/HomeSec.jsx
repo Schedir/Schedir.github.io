@@ -46,7 +46,7 @@ const HomeSec = () => {
                     </motion.div>
                 </div>
                   <motion.img 
-                      style={{translateX:useTransform(springscroll, [0,.8], [200, -3600])}} src='/HomeMedia/IMG_4.png' className='absolute mt-[-17vh] ml-[-20vw]'/>
+                      style={{translateX:useTransform(springscroll, [0,.8], [200, -3600])}} src='/HomeMedia/IMG_4.png' className='absolute mt-[-17vh] ml-[-20vw] scale-125'/>
             </div>
 
             <div className='sticky top-[60vh] lg:top-[47vh] text-right mx-[10%] z-30'>
