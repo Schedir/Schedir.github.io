@@ -12,7 +12,6 @@ export default function Document() {
       </Head>
       <body>
         <Main/>
-        <NextScript src='/js/scrollvideo.js' />
         <script src='https://unpkg.com/flowbite@1.5.2/dist/flowbite.js' ></script>
       </body>
     </Html>
