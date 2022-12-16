@@ -1,0 +1,61 @@
+import {React, useRef, matrix} from 'react'
+import { motion , AnimatePresence, useScroll, useTransform, useSpring} from 'framer-motion'
+
+const HomeSec4 = () => {
+  
+    function useParallax(value, distance) {
+        return useTransform(value, [0, 1], [-distance, distance]);
+      };
+
+    const ref = useRef(null);
+    const { scrollYProgress } = useScroll({ target: ref });
+    const springscroll = useSpring(scrollYProgress, { stiffness: 500, damping: 150 })
+
+    const y = useTransform(springscroll, [0, 1], [350, 0])
+    
+  return (
+    <>
+      <div className='relative'>
+        <div ref={ref} className=" h-[200vh] my-auto mx-auto mt-[-50vh] lg:mt-[-100vh]">
+          <div className='sticky top-[20vh] text-left mx-[10%] mt-[120vh] -z-30'>
+              <motion.div 
+                style={{backgroundPositionY:useTransform(springscroll, [0, 1], [-10 + '%', 110 + '%'])}} 
+                className='bg-auto bg-center bg-clip-text bg-[url("/media/sfondosfumatura2.png")] text-transparent'>
+                  <div className='text-[25px] sm:text-[40px] md:text-[55px] lg:text-[70px] font-bold '>
+                  Being foreigners
+                  </div>
+                  <div className='text-[15px] sm:text-[15px] md:text-[20px] lg:text-[27px]'>
+                  Every land reached is the beginning of many lives:  <br/>
+                  the relationship between the new land and the foreigner  <br/> 
+                  is a mutual gift. <br/>
+                  New smells, new sounds, new flavors,<br/>
+                  new relationships, new stories.<br/>
+                  Arriving by sea in a new land and feeling like a foreigner <br/>
+                  is the privilege that allows us to be free,<br/>
+                  to include and to transform ourselves <br/>
+                  into something new.
+                  </div>
+              </motion.div>
+          </div> 
+
+          {/* <div className='flex justify-end'>
+            <motion.div 
+            className=' max-w-lg max-h-lg mx-[10vw] mt-[60vh] 
+                      rounded-md overflow-hidden object-cover' 
+                      style={{y}}>
+              <motion.img 
+              style={{opacity:useTransform(springscroll, [0, .5, 1], [0, 1, 0])}} src='/HomeMedia/IMG_1.png'/>
+            </motion.div>
+          </div> */}
+
+        </div>
+      </div>
+      <motion.div style={{scaleX:-1}}>
+        <motion.img 
+        style={{translateX:useTransform(springscroll, [0,.8], [0, 0])}} src='/HomeMedia/IMG_costa_2.png' className='sticky bottom-[0vh] lg:bottom-[-10vh] mt-[-90vh] z-30'/>
+      </motion.div>
+    </>
+  )
+}
+
+export default HomeSec4
